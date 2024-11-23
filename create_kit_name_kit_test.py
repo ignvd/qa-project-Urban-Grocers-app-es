@@ -1,6 +1,6 @@
 import pytest
-from data import KIT_BODIES
 from sender_stand_request import create_user, create_kit
+from data import KIT_BODIES
 
 def positive_assert(kit_body):
     token = create_user()
@@ -36,3 +36,6 @@ def test_numbers():
 
 def test_missing_name():
     negative_assert_code_400(KIT_BODIES["missing_name"])
+
+def test_invalid_type():
+    negative_assert_code_400(KIT_BODIES["invalid_type"])
