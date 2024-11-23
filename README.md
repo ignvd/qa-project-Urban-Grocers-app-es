@@ -4,7 +4,7 @@
 Este proyecto automatiza las pruebas de la API de creación de kits en la aplicación Urban Grocers. Las pruebas están diseñadas para validar las restricciones del campo `name`en la solicitud de creación de kits.
 
 ## Autor
-- Nombre: [Tu Nombre Aquí]
+- Nombre: [Ignacia_Alarcon]
 - Sprint: Séptimo
 
 ## Requisitos
