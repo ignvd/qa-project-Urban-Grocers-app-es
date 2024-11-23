@@ -1,6 +1,7 @@
-BASE_URL = "https://cnt-98535ca0-e0a3-4c95-bfbf-38e31bc80ec6.containerhub.tripleten-services.com"
+BASE_URL = "https://cnt-f87e342d-a558-40b7-a0c8-9ef9f746811e.containerhub.tripleten-services.com"
 
 ROUTES = {
-    "create_user": "/users",
-    "create_kit": "/kits"
+    "create_user": "/api/v1/users",
+    "create_kit": "/api/v1/kits"
 }
+
